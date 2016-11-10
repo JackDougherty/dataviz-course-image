@@ -1,4 +1,4 @@
-# dataviz-course-image
+# dataviz-course-image-b
 background map with points and polygons for DataViz for All course image
 
 ## links
