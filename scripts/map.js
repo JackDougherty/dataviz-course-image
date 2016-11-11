@@ -434,25 +434,25 @@ window.onload = function () {
 
 
   function changeAttribution() {
-    var attributionHTML = $('.leaflet-control-attribution')[0].innerHTML;
-
-    var credit = 'View <a href="' + googleDocURL + '" target="_blank">data</a>';
-
-    var name = documentSettings[constants._authorName];
-    var url = documentSettings[constants._authorURL];
-
-    if (name && url) {
-      if (url.indexOf('@') > 0) { url = 'mailto:' + url; }
-      credit += ' by <a href="' + url + '">' + name + '</a> | ';
-    } else if (name) {
-      credit += ' by ' + name + ' | ';
-    } else {
-      credit += ' | ';
-    }
-
-    credit += 'View <a href="' + documentSettings[constants._githubRepo] + '">code</a> with ';
-
-    $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
+    // var attributionHTML = $('.leaflet-control-attribution')[0].innerHTML;
+    //
+    // var credit = 'View <a href="' + googleDocURL + '" target="_blank">data</a>';
+    //
+    // var name = documentSettings[constants._authorName];
+    // var url = documentSettings[constants._authorURL];
+    //
+    // if (name && url) {
+    //   if (url.indexOf('@') > 0) { url = 'mailto:' + url; }
+    //   credit += ' by <a href="' + url + '">' + name + '</a> | ';
+    // } else if (name) {
+    //   credit += ' by ' + name + ' | ';
+    // } else {
+    //   credit += ' | ';
+    // }
+    //
+    // credit += 'View <a href="' + documentSettings[constants._githubRepo] + '">code</a> with ';
+    //
+    // $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
   }
 
 
