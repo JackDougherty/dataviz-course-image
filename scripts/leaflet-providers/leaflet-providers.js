@@ -496,7 +496,7 @@
 		CartoDB: {
 			url: 'http://{s}.basemaps.cartocdn.com/{variant}/{z}/{x}/{y}.png',
 			options: {
-				attribution: '{attribution.OpenStreetMap} &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+				attribution: '',
 				subdomains: 'abcd',
 				maxZoom: 19,
 				variant: 'light_all'
